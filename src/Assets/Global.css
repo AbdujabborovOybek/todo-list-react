@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+:where(button, input, textarea, select) {
+  outline: none;
+}
+
+:where(
+    button,
+    input[type="checkbox"],
+    input[type="radio"],
+    input[type="button"],
+    input[type="submit"],
+    input[type="reset"]
+  ) {
+  cursor: pointer;
+}
