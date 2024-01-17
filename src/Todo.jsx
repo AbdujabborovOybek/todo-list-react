@@ -3,7 +3,6 @@ import "./Todo.css";
 
 // const token = "ewcwe-we232-wdf23dc-wevwe-qd34-ec-f23-v-sdfvad";
 // localStorage.setItem("token_key", token);
-
 export const Todo = () => {
   const fruit = JSON.parse(sessionStorage.getItem("fruit")) || [];
   const [data, setData] = useState(fruit);
